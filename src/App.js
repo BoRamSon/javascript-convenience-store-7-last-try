@@ -1,5 +1,9 @@
+import MainController from './controller/MainController.js';
+
 class App {
-  async run() {}
+  async run() {
+    await new MainController().openStore();
+  }
 }
 
 export default App;
