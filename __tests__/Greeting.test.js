@@ -1,5 +1,5 @@
-import OutputView from '../src/view/OutputView';
-import Greeting from '../src/model/Greeting';
+import OutputView from '../src/view/OutputView.js';
+import Greeting from '../src/model/Greeting.js';
 
 jest.mock('../src/view/OutputView');
 
